@@ -11,7 +11,7 @@ passport.use(
     {
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
-      callbackURL: "/auth/google/callback",
+      callbackURL: "https://your-backend.onrender.com/auth/google/callback",
     },
     (accessToken, refreshToken, profile, done) => {
       return done(null, profile);
@@ -49,7 +49,7 @@ app.get(
     });
 
     // Redirect to frontend with token as query param
-    res.redirect(`http://localhost:4200/?token=${token}`);
+    res.redirect(`https://oauth-test-vjge.onrender.com/?token=${token}`);
   }
 );
 
@@ -66,6 +66,6 @@ app.get("/protected", (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () =>
+app.listen(PORT, "0.0.0.0", () =>
   console.log(`Server running at http://localhost:${PORT}`)
 );
