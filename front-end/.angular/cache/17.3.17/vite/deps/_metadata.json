@@ -1,0 +1,121 @@
+{
+  "hash": "64e5fd3b",
+  "configHash": "72e69604",
+  "lockfileHash": "421c6ebb",
+  "browserHash": "dbbfeb24",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "ab05a142",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "ea767fd4",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "6dbf12e2",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "1566e904",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "13ab5e8a",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "c3ea0858",
+      "needsInterop": false
+    },
+    "@fullcalendar/angular": {
+      "src": "../../../../../node_modules/@fullcalendar/angular/fesm2020/fullcalendar-angular.mjs",
+      "file": "@fullcalendar_angular.js",
+      "fileHash": "99c8dc8f",
+      "needsInterop": false
+    },
+    "@fullcalendar/interaction": {
+      "src": "../../../../../node_modules/@fullcalendar/interaction/index.js",
+      "file": "@fullcalendar_interaction.js",
+      "fileHash": "21ae593a",
+      "needsInterop": false
+    },
+    "@fullcalendar/timegrid": {
+      "src": "../../../../../node_modules/@fullcalendar/timegrid/index.js",
+      "file": "@fullcalendar_timegrid.js",
+      "fileHash": "df5ad63b",
+      "needsInterop": false
+    },
+    "angular-calendar": {
+      "src": "../../../../../node_modules/angular-calendar/fesm2020/angular-calendar.mjs",
+      "file": "angular-calendar.js",
+      "fileHash": "a4195e2e",
+      "needsInterop": false
+    },
+    "angular-calendar/date-adapters/date-fns": {
+      "src": "../../../../../node_modules/angular-calendar/date-adapters/esm/date-fns/index.js",
+      "file": "angular-calendar_date-adapters_date-fns.js",
+      "fileHash": "1d13854b",
+      "needsInterop": false
+    },
+    "angular-draggable-droppable": {
+      "src": "../../../../../node_modules/angular-draggable-droppable/fesm2020/angular-draggable-droppable.mjs",
+      "file": "angular-draggable-droppable.js",
+      "fileHash": "abb82d4d",
+      "needsInterop": false
+    },
+    "angular-resizable-element": {
+      "src": "../../../../../node_modules/angular-resizable-element/fesm2020/angular-resizable-element.mjs",
+      "file": "angular-resizable-element.js",
+      "fileHash": "554ff058",
+      "needsInterop": false
+    },
+    "gapi-script": {
+      "src": "../../../../../node_modules/gapi-script/index.js",
+      "file": "gapi-script.js",
+      "fileHash": "c6b52eb1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3XV7XKAI": {
+      "file": "chunk-3XV7XKAI.js"
+    },
+    "chunk-KFNMMLNH": {
+      "file": "chunk-KFNMMLNH.js"
+    },
+    "chunk-2OCRRJA4": {
+      "file": "chunk-2OCRRJA4.js"
+    },
+    "chunk-JG45TYUB": {
+      "file": "chunk-JG45TYUB.js"
+    },
+    "chunk-RW2YPZIO": {
+      "file": "chunk-RW2YPZIO.js"
+    },
+    "chunk-4RCWKJIW": {
+      "file": "chunk-4RCWKJIW.js"
+    },
+    "chunk-MJT7B4TL": {
+      "file": "chunk-MJT7B4TL.js"
+    },
+    "chunk-Q3XVAEG4": {
+      "file": "chunk-Q3XVAEG4.js"
+    },
+    "chunk-WDMUDEB6": {
+      "file": "chunk-WDMUDEB6.js"
+    }
+  }
+}
