@@ -1,0 +1,47 @@
+/* For all time slots */
+:host ::ng-deep .fc-timeGridDay-view .fc-timegrid-slots tr {
+  height: 40px !important;
+}
+
+:host ::ng-deep .fc-timeGridDay-view .fc-timegrid-slot {
+  border: none !important;
+  border-width: 0 !important;
+}
+
+:host ::ng-deep .fc-timeGridDay-view .fc-scrollgrid,
+:host ::ng-deep .fc-theme-standard td,
+:host ::ng-deep .fc-timeGridDay-view .fc-scrollgrid th,
+:host ::ng-deep .fc-timeGridDay-view .fc-col-header-cell,
+:host ::ng-deep .fc-timeGridDay-view .fc-daygrid-day,
+:host ::ng-deep .fc-timeGridDay-view .fc-timegrid-col {
+  border: none !important;
+  border-width: 0 !important;
+}
+
+:host ::ng-deep .fc-timeGridDay-view .fc-timegrid-slot.fc-timegrid-slot-lane {
+  border-top: 2px solid #999999 !important;
+}
+
+:host ::ng-deep .fc-timeGridDay-view .fc-scrollgrid-sync-inner {
+  border-bottom: 2px solid #999999 !important;
+}
+
+/* For all time slots */
+:host ::ng-deep .fc-timeGridDay-view .fc-timegrid-slots td {
+  background-color: white;
+}
+:host ::ng-deep .fc-timeGridDay-view .fc-timegrid-slots td:hover {
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+:host ::ng-deep .fc-timeGridDay-view .fc-timegrid-slot-label-cushion {
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+  color: #d9d9d9;
+  padding: 0 20px 0 0;
+  height: 40px;
+  width: 80px;
+  vertical-align: top;
+}

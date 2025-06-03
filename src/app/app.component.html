@@ -1,0 +1,118 @@
+<!-- <button (click)="loginAndFetchEvents()">Login & Load Events</button>
+<button (click)="listEvents()">get Test Event</button>
+<button (click)="getCalendarList()">get Calendar list</button>
+<button (click)="getCalendar()">get Calendar</button>
+
+<ul>
+  <li *ngFor="let event of oldEvents">
+    {{ event.summary }} — {{ event.start.dateTime || event.start.date }}
+  </li>
+</ul> -->
+
+<div *ngIf="!token">
+  <h1>Welcome</h1>
+  <button (click)="loginWithGoogle()">Login with Google</button>
+</div>
+
+<div *ngIf="token">
+  <h2>Logged in!</h2>
+  <p>Your JWT:</p>
+  <code>{{ token }}</code>
+</div>
+
+<!-- <full-calendar [options]="calendarOptions">
+  <ng-template #eventContent let-arg>
+    <b>{{ arg.event.title }}</b>
+  </ng-template>
+</full-calendar> -->
+<!-- <hr />
+<hr />
+<hr />
+<hr />
+<hr />
+
+<div class="view-switcher">
+  <button
+    (click)="view = CalendarView.Month"
+    [class.active]="view === CalendarView.Month"
+  >
+    Month
+  </button>
+  <button
+    (click)="view = CalendarView.Week"
+    [class.active]="view === CalendarView.Week"
+  >
+    Week
+  </button>
+  <button
+    (click)="view = CalendarView.Day"
+    [class.active]="view === CalendarView.Day"
+  >
+    Day
+  </button>
+</div>
+
+<div [ngSwitch]="view">
+
+  <mwl-calendar-month-view
+    *ngSwitchCase="CalendarView.Month"
+    [viewDate]="viewDate"
+    [cellTemplate]="continuousEventTemplate"
+    [events]="events"
+    (eventClicked)="eventClicked($event)"
+    (eventTimesChanged)="eventTimesChanged($event)"
+  >
+  </mwl-calendar-month-view>
+
+
+  <mwl-calendar-week-view
+    *ngSwitchCase="CalendarView.Week"
+    [viewDate]="viewDate"
+    [hourSegments]="1"
+    [hourSegmentHeight]="43"
+    [minimumEventHeight]="43"
+    [eventSnapSize]="10"
+    [events]="events"
+    (eventClicked)="eventClicked($event)"
+    (eventTimesChanged)="eventTimesChanged($event)"
+  >
+  </mwl-calendar-week-view>
+
+
+  <mwl-calendar-day-view
+    *ngSwitchCase="CalendarView.Day"
+    [hourSegments]="1"
+    [viewDate]="viewDate"
+    [events]="events"
+    (eventClicked)="eventClicked($event)"
+    (eventTimesChanged)="eventTimesChanged($event)"
+  >
+  </mwl-calendar-day-view>
+</div>
+
+<ng-template #customCellTemplate let-day="day">
+  <div class="cal-events">
+    <div
+      *ngFor="let event of day.events"
+      class="cal-event"
+      [style.backgroundColor]="event.color?.primary"
+      [style.borderColor]="event.color?.secondary"
+      mwlDraggable
+      [dropData]="{ event: event, calendarId: 1 }"
+      [dragAxis]="{ x: true, y: true }"
+      [dragActiveClass]="'cal-drag-active'"
+    >
+      <div class="event-title">{{ event.title }}</div>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #continuousEventTemplate let-event="event" let-day="day">
+  <div class="cal-event-inner">
+    {{ event.title }}
+    <span *ngIf="isFirstDay(event, day.date)" class="event-duration">
+      ({{ event.start | date : "shortDate" }} -
+      {{ event.end | date : "shortDate" }})
+    </span>
+  </div>
+</ng-template> -->
